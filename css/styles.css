@@ -1,0 +1,188 @@
+:root {
+    --main-text-color: #212121;
+    --main-background-color:#f5f5f5;
+    --highlight-color: #2196F3;
+    --secondary-text: #757575;
+
+}
+.body{
+    font-family: Roboto, sans-serif;
+    color: var(--main-text-color);
+    font-style: normal;
+}
+
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo-web{
+    color: var(--highlight-color);
+}
+
+.logo-header{
+    color: #000000;
+}
+
+.list{
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+    list-style-type: disc;
+}
+
+.nav-link{
+    color: var(--main-text-color);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.nav-link:hover, :focus {
+    color: var(--highlight-color);
+}
+
+.contact-link {
+    color: var(--secondary-text);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.contact-link:hover, :focus {
+  color: var(--highlight-color);
+}
+
+.hero-section{
+    background-color: #2F303A;
+}
+
+.hero{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px; 
+    line-height: 1.4; 
+    text-align: center;
+}
+
+.button {
+   color: #FFFFFF;
+   background-color: var(--highlight-color);
+
+   font-size: 16px;
+   font-weight: 700; 
+    line-height: 1.9; 
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover, :focus {
+color: var(--main-text-color) ;
+background-color: var(--highlight-color);
+}
+
+.advantage{
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.advantage-desc{
+    color: var(--secondary-text);
+    
+    font-size: 14px; 
+    line-height: 1.7; 
+}
+
+.h2{
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;    
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.name-pos{
+    color: var(--secondary-text);
+    
+    font-size: 16px; 
+    line-height: 1.19;
+
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: #FFFFFF;
+}
+
+.address{
+    color: #FFFFFF;
+
+
+    font-style: normal;
+    font-size: 14px; 
+    line-height: 1.7;
+}
+
+.address:hover, :focus {
+    color: var(--highlight-color);
+  }
+
+  .address-link {
+    color: #FFFFFF;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+
+}
+
+.address-link:hover, :focus {
+  color: var(--highlight-color);
+}
+
+  .portf-button {
+    color: #212121;
+    background-color: #F5F4FA;
+ 
+    font-size: 16px;
+    font-weight: 500; 
+     line-height: 1.6;
+     cursor: pointer; 
+ 
+ }
+ 
+ .portf-button:hover, :focus {
+ color: #FFFFFF ;
+ background-color: var(--highlight-color);
+ }
+
+ .portf-name{
+
+    font-size: 18px;
+    line-height: 2;
+
+ }
+
+ .port-desc{
+
+    color: #757575;
+    font-size: 16px;
+   line-height: 1.9;
+
+ }
+ 
+
+  
